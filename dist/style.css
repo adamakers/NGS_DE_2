@@ -1,0 +1,29 @@
+/* Pallette
+DE6B48
+30323D
+4D5061
+5C80BC
+EAE8FF
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+  background-color: #4D5061;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #30323D;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+}
+
