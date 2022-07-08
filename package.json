@@ -1,0 +1,24 @@
+{
+  "name": "ngs_de_2",
+  "version": "1.0.0",
+  "description": "Reimagination of NGS Data Explorer",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamakers/NGS_DE_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamakers/NGS_DE_2/issues"
+  },
+  "homepage": "https://github.com/adamakers/NGS_DE_2#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
