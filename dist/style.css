@@ -1,9 +1,9 @@
 /* Pallette
-DE6B48
-30323D
-4D5061
-5C80BC
-EAE8FF
+#DE6B48
+#30323D
+#4D5061
+#5C80BC
+#EAE8FF
  */
 
 * {
@@ -27,8 +27,34 @@ body {
   height: 100vh;
 }
 
+/* MAIN MAP CONTAINER */
+.app-container {
+  max-height: calc(100vh - 56px);
+  margin-top: 56px;
+  display: flex;
+}
+
+.map-data-aside {
+  width: 250px;
+  background-color: #EAE8FF;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box {
+  background-color: #f9feff;
+}
+
+.search-results {
+  overflow-y:scroll;
+}
+
+.returned-point {
+  border: 1px solid #000;
+  background-color: #5C80BC;
+}
+
 /* MAP */
 #map {
-  height: calc(100vh - 56px);
-  margin-top: 56px;
+  width: calc(100vw - 250px);
 }

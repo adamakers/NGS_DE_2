@@ -1,1 +1,1 @@
-(()=>{const t=L.map("map").setView([38.952,-104.789],15);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,minZoom:5,attribution:"© OpenStreetMap"}).addTo(t),L.marker([38.952,-104.789]).addTo(t)})();
+(()=>{const o=L.map("map",{zoomControl:!1}).setView([38.952,-104.789],15);L.control.zoom({position:"bottomright"}).addTo(o),L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,minZoom:5,attribution:"© OpenStreetMap"}).addTo(o),L.marker([38.952,-104.789]).addTo(o)})();
