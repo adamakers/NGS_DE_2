@@ -1,3 +1,4 @@
+
 const map = L.map('map', {
   zoomControl: false
 }).setView([38.952, -104.789], 15);
@@ -13,16 +14,39 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     
 }).addTo(map);
 
+
+class DataGrabber = { 
+
+}
+
+
+
+
+
+
+
+
+
+
+
 let marker = L.marker([38.952, -104.789]);
 
 marker.addTo(map);
 
 
 
+
+
+
+
+
+
+
+
+
+
 // create the following:
-// 1. sidebar
-  //1a. input for coords
-  //1b. section for filter results
-  //1c. section for results
-// 2.  Home page, figure out a background for the hero
-// 3. 
+// 2. Home page, figure out a background for the hero
+// 3. Add box inside of the map element to show cursors coords
+// 4. figure out how to drop marker
+
