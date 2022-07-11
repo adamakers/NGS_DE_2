@@ -17,15 +17,12 @@ class Map {
     }).addTo(this.mainMap);
   }
 
-  // add a point
   createPoint(lat, lon) {
     this.markersArr.push(L.marker([lat, lon]));
   }
 
   drawMarkers() {
     this.removeAllMarkers();
-
-    // adding all markers
     this.markersArr.forEach( point => {
       point.addTo(this.mainMap);
     });
@@ -37,7 +34,6 @@ class Map {
     });
   }
 }
-
 
 class Monument {
   constructor(lat, lon, type, text) {
@@ -53,7 +49,7 @@ class SearchAside {
 
   // create put all Els in aside
 
-  //
+  // 
 }
 
 class DataGrabber {
